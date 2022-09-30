@@ -13,14 +13,14 @@ module.exports = {
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],
     },
-  },
-  screens: {
-    desktop: "1280px",
-    smDesktop: "992px",
-    table: "768px",
-    smTable: "640px",
-    phone: "480px",
-    smPhone: "320px",
+    screens: {
+      desktop: { max: "1280px" },
+      smDesktop: { max: "992px" },
+      table: { max: "768px" },
+      smTable: { max: "640px" },
+      phone: { max: "480px" },
+      smPhone: { max: "320px" },
+    },
   },
   colors: {
     black: "#000000",

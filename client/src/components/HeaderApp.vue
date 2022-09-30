@@ -20,7 +20,6 @@
               >Новости</router-link
             >
           </li>
-
           <li>
             <router-link
               :class="$style.hover"

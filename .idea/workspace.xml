@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Init (app): init app">
-      <change afterPath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/icons/LoginIcon.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ui/ButtonBase.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ui/IconBase.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ui/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/helpers/global-register-components.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/NewsView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/views/VideoView.vue" afterDir="false" />
+    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Features (header): create html header, and styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/AboutView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +144,7 @@
       <workItem from="1664522544517" duration="6368000" />
       <workItem from="1664531541426" duration="10048000" />
       <workItem from="1664543738714" duration="1126000" />
-      <workItem from="1664547123145" duration="12236000" />
+      <workItem from="1664547123145" duration="13207000" />
     </task>
     <task id="LOCAL-00001" summary="Init (app): init app">
       <created>1664531363691</created>
@@ -176,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664531555797</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Features (header): create html header, and styles">
+      <created>1664562426602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664562426602</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +198,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init (app): init app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init (app): init app" />
+    <MESSAGE value="Features (header): create html header, and styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Features (header): create html header, and styles" />
   </component>
 </project>
