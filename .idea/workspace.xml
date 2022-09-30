@@ -4,16 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Init (app): init app" />
+    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Init (app): init app">
+      <change afterPath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/icons/LoginIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ui/ButtonBase.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ui/IconBase.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/helpers/global-register-components.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/views/NewsView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/views/VideoView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/AboutView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="init_project" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,6 +53,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="ProjectId" id="2FSUgyUIANP6JaO2i3IZDQTBRLU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,27 +65,39 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/oem/Portfolio_Projects/cinema",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/oem/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4167.31/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/oem/Portfolio_Projects/cinema&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/oem/Portfolio_Projects/skate/client/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/oem/Portfolio_Projects/skate/client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/assets/fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components" />
+      <recent name="$PROJECT_DIR$/client/src/components/Ui" />
       <recent name="$PROJECT_DIR$/client" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.tailwindcss-build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -84,13 +128,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="tailwindcss-build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="tailwindcss-build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.tailwindcss-build" />
         <item itemvalue="npm.preview" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.preview" />
       </list>
     </recent_temporary>
   </component>
@@ -104,6 +158,9 @@
       <updated>1664485093600</updated>
       <workItem from="1664485094861" duration="3228000" />
       <workItem from="1664522544517" duration="6368000" />
+      <workItem from="1664531541426" duration="10048000" />
+      <workItem from="1664543738714" duration="1126000" />
+      <workItem from="1664547123145" duration="12236000" />
     </task>
     <task id="LOCAL-00001" summary="Init (app): init app">
       <created>1664531363691</created>
@@ -112,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664531363691</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init (app): init app">
+      <created>1664531555797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664531555797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +193,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="default_styles" />
                       </list>
                     </value>
                   </entry>
