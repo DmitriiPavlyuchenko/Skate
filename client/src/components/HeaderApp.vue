@@ -31,11 +31,21 @@
         </ul>
       </nav>
       <div class="flex-initial w-1/5 flex items-center justify-end">
-        <ButtonBase class="cursor-pointer align-baseline" type="button">
+        <ButtonBase
+          class="cursor-pointer align-baseline"
+          type="button"
+          @click="open"
+        >
           <IconBase height="25" icon-name="login" width="25">
             <LoginIcon />
           </IconBase>
         </ButtonBase>
+        <teleport to="body">
+          <ModalBase
+            :isModalOpen="toggleModal"
+            @closeModal="toggleModal = false"
+          />
+        </teleport>
       </div>
     </div>
   </header>
@@ -43,6 +53,14 @@
 
 <script lang="ts" setup>
 import LoginIcon from "@/components/icons/LoginIcon.vue";
+import ModalBase from "@/components/ui/ModalBase.vue";
+import { ref } from "vue";
+
+const toggleModal = ref(false);
+
+const open = () => {
+  toggleModal.value = true;
+};
 </script>
 
 <style lang="postcss" module>
