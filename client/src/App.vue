@@ -1,7 +1,7 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import HeaderApp from "@/components/HeaderApp.vue";
+</script>
 
 <template>
-  <header><span class="font-sans">Hello</span></header>
+  <HeaderApp />
 </template>
-
-<style scoped></style>
