@@ -41,7 +41,7 @@
           </IconBase>
         </ButtonBase>
         <teleport to="body">
-          <ModalBase
+          <SignInModal
             :isModalOpen="toggleModal"
             @closeModal="toggleModal = false"
           />
@@ -53,8 +53,8 @@
 
 <script lang="ts" setup>
 import LoginIcon from "@/components/icons/LoginIcon.vue";
-import ModalBase from "@/components/ui/ModalBase.vue";
 import { ref } from "vue";
+import SignInModal from "@/components/modals/SignInModal.vue";
 
 const toggleModal = ref(false);
 

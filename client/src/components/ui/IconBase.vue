@@ -20,7 +20,6 @@ interface Props {
   width: number | string;
   height: number | string;
   iconColor?: string;
-  class?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {

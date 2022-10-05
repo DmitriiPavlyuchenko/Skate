@@ -2,17 +2,17 @@
   <ZoomTransition>
     <div
       v-show="isModalOpen"
-      class="fixed z-50 top-0 left-0 bottom-0 right-0 w-full h-full flex justify-center items-center opacity-90"
+      class="fixed z-50 top-0 left-0 bottom-0 right-0 w-full h-full flex justify-center items-center opacity-90 bg-black"
       @click="close"
     >
       <div class="w-full">
         <div
-          class="relative max-w-full w-full min-h-[10] mx-auto my-0 px-8 py-5 rounded-lg"
+          class="relative max-w-full w-[30rem] min-h-[10] mx-auto my-0 px-8 py-5 rounded-lg bg-gray-300"
           role="dialog"
           @click.stop
         >
           <div
-            class="flex flex-col gap-4 text-2xl align-middle decoration-black"
+            class="flex flex-col gap-4 text-2xl items-center decoration-black"
           >
             <slot name="header"></slot>
           </div>
@@ -23,7 +23,7 @@
             <slot name="footer"></slot>
           </div>
           <ButtonBase
-            class="absolute top-2 right-2 text-base text-black bg-black"
+            class="absolute top-2 right-2 text-base text-gray-700 text-2xl hover:text-black"
             @click="close"
             >x
           </ButtonBase>
@@ -61,5 +61,3 @@ onMounted(() => document.addEventListener("keydown", handleKeyDown));
 
 onUnmounted(() => document.removeEventListener("keydown", handleKeyDown));
 </script>
-
-<style scoped></style>

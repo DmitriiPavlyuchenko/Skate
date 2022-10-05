@@ -12,6 +12,7 @@
     "tailwindcss-build": "tailwindcss build -i src/assets/styles/style.css -o public/style.css --watch"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "pinia": "^2.0.21",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5"

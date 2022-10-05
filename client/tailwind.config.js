@@ -29,6 +29,7 @@ module.exports = {
   extend: {
     spacing: {
       60: "60rem",
+      30: "30rem",
     },
   },
   plugins: [],
