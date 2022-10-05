@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Features (header): create signIn modal">
+    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Features (header): add active link styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/SignInModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/SignInModal.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,8 @@
       <workItem from="1664547123145" duration="16879000" />
       <workItem from="1664808107228" duration="10042000" />
       <workItem from="1664886209941" duration="6628000" />
-      <workItem from="1664962239082" duration="4811000" />
+      <workItem from="1664962239082" duration="8613000" />
+      <workItem from="1664997832665" duration="214000" />
     </task>
     <task id="LOCAL-00001" summary="Init (app): init app">
       <created>1664531363691</created>
@@ -190,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664966393957</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Features (header): add active link styles">
+      <created>1664967094848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664967094848</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +233,7 @@
     <MESSAGE value="Fix (header): fix  max-width screens in tailwind config" />
     <MESSAGE value="Features (header): create default modal component" />
     <MESSAGE value="Features (header): create signIn modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Features (header): create signIn modal" />
+    <MESSAGE value="Features (header): add active link styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Features (header): add active link styles" />
   </component>
 </project>

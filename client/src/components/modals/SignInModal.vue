@@ -9,7 +9,7 @@
         name="sign-in"
         @submit.prevent
       >
-        <label class="">
+        <label class="relative">
           <InputBase
             v-model="user.email"
             :class="$style.input"
