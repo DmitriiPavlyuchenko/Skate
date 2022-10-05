@@ -68,3 +68,11 @@ const open = () => {
   @apply hover:border-b-2 border-y-current p-2;
 }
 </style>
+
+<style lang="scss">
+a.router-link-active,
+li.router-link-active > a {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.05rem solid black;
+}
+</style>
