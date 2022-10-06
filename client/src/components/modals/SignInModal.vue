@@ -54,7 +54,6 @@ import EyeIcon from "@/components/icons/EyeIcon.vue";
 import EyeBlockedIcon from "@/components/icons/EyeBlockedIcon.vue";
 import { authorization } from "@/api/sign-in";
 import { SERVER_CODE } from "@/enum/server-code";
-import ButtonBase from "@/components/ui/ButtonBase.vue";
 
 interface Props {
   isModalOpen: boolean;
