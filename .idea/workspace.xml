@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Features (icon-base): test slot icon-base">
-      <change afterPath="$PROJECT_DIR$/client/src/tests/unit/ModalBase.spec.ts" afterDir="false" />
+    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Features (ModalBase, ButtonBase): add tests on button and modal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/ModalBase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/ModalBase.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/tests/unit/ButtonBase.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/tests/unit/ButtonBase.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +138,7 @@
       <workItem from="1664522544517" duration="6368000" />
       <workItem from="1664998171950" duration="321000" />
       <workItem from="1665043186970" duration="16749000" />
-      <workItem from="1665134728854" duration="3333000" />
+      <workItem from="1665134728854" duration="4467000" />
     </task>
     <task id="LOCAL-00001" summary="Init (app): init app">
       <created>1664531363691</created>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665054786279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Features (ModalBase, ButtonBase): add tests on button and modal">
+      <created>1665138203079</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665138203079</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +192,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="tests" />
                       </list>
                     </value>
                   </entry>
@@ -201,6 +208,8 @@
     <MESSAGE value="Init (app): init app" />
     <MESSAGE value="Fix (app): fix" />
     <MESSAGE value="Features (icon-base): test slot icon-base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Features (icon-base): test slot icon-base" />
+    <MESSAGE value="Features (ModalBase, ButtonBase): add test on button and modal" />
+    <MESSAGE value="Features (ModalBase, ButtonBase): add tests on button and modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Features (ModalBase, ButtonBase): add tests on button and modal" />
   </component>
 </project>

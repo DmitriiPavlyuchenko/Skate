@@ -8,6 +8,9 @@ export default defineConfig({
   plugins: [vue()],
   test: {
     globals: true,
+    coverage: {
+      provider: "c8",
+    },
   },
   resolve: {
     alias: {
