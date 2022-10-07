@@ -5,9 +5,9 @@
       class="modal fixed z-50 top-0 left-0 bottom-0 right-0 w-full h-full flex justify-center items-center opacity-90 bg-black"
       @click="close"
     >
-      <div class="w-full">
+      <div class="w-full px-3">
         <div
-          class="relative max-w-full w-[30rem] min-h-[10] mx-auto my-0 px-8 py-5 rounded-lg bg-gray-300"
+          class="relative max-w-full w-[30rem] min-h-[10] mx-auto my-0 px-8 py-5 rounded-lg bg-gray-300 phone:px-4 phone:py-1.5"
           @click.stop
         >
           <div

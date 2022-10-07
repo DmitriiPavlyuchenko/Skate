@@ -27,7 +27,7 @@
             placeholder="Пароль"
           ></InputBase>
           <ButtonBase
-            class="text-black absolute w-1/12 right-0 h-full"
+            class="text-black absolute w-1/12 right-2 h-full"
             type="button"
             @click="changeType"
           >
@@ -109,6 +109,6 @@ const changeType = () => {
 </script>
 <style lang="postcss" module>
 .input {
-  @apply w-full py-2 px-4 rounded-md;
+  @apply w-full py-2 pl-2.5 pr-8 rounded-md;
 }
 </style>
