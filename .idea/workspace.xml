@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Fix (app): fix">
-      <change afterPath="$PROJECT_DIR$/client/src/tests/unit/ButtonBase.spec.ts" afterDir="false" />
+    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Features (icon-base): test slot icon-base">
+      <change afterPath="$PROJECT_DIR$/client/src/tests/unit/ModalBase.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/modals/SignInModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/SignInModal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ui/ModalBase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/ModalBase.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/tests/unit/ButtonBase.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/tests/unit/ButtonBase.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +137,8 @@
       <workItem from="1664485094861" duration="3228000" />
       <workItem from="1664522544517" duration="6368000" />
       <workItem from="1664998171950" duration="321000" />
-      <workItem from="1665043186970" duration="5548000" />
+      <workItem from="1665043186970" duration="16749000" />
+      <workItem from="1665134728854" duration="3333000" />
     </task>
     <task id="LOCAL-00001" summary="Init (app): init app">
       <created>1664531363691</created>
@@ -162,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664998258212</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Features (icon-base): test slot icon-base">
+      <created>1665054786279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665054786279</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +200,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init (app): init app" />
     <MESSAGE value="Fix (app): fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix (app): fix" />
+    <MESSAGE value="Features (icon-base): test slot icon-base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Features (icon-base): test slot icon-base" />
   </component>
 </project>
