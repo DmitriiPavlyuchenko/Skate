@@ -6,18 +6,18 @@
         <ul :class="[$style.menu, [isMenuOpen ? $style['menu-open'] : '']]">
           <li>
             <router-link :class="$style['menu-link']" :to="{ name: 'home' }"
-              >Главная</router-link
-            >
+              >Главная
+            </router-link>
           </li>
           <li>
             <router-link :class="$style['menu-link']" :to="{ name: 'news' }"
-              >Новости</router-link
-            >
+              >Новости
+            </router-link>
           </li>
           <li>
             <router-link :class="$style['menu-link']" :to="{ name: 'video' }"
-              >Видео</router-link
-            >
+              >Видео
+            </router-link>
           </li>
         </ul>
         <ButtonBase
@@ -76,14 +76,15 @@ const toggleMenu = () => {
 }
 
 .menu {
-  @apply flex gap-12 smDesktop:hidden absolute top-14 right-0 left-0 bottom-0 flex flex-col items-center content-center pt-8;
+  @apply flex gap-12 smDesktop:hidden smDesktop:absolute smDesktop:top-14 smDesktop:right-0 smDesktop:left-0
+  smDesktop:bottom-0  smDesktop:flex-col smDesktop:items-center smDesktop:content-center smDesktop:pt-8;
 }
 
 .menu-link {
   @apply text-base smDesktop:text-2xl hover:border-b-2 border-y-current p-2;
 }
 
-.menu.menu-open {
+.menu-open {
   @apply flex;
 }
 </style>

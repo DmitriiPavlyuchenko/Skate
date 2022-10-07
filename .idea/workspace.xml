@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Features (ModalBase, ButtonBase): add tests on button and modal">
+    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Features (Header): add adaptive styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/modals/SignInModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/SignInModal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/ModalBase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/ModalBase.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665138203079</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Features (Header): add adaptive styles">
+      <created>1665144966952</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665144966952</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +215,7 @@
     <MESSAGE value="Features (icon-base): test slot icon-base" />
     <MESSAGE value="Features (ModalBase, ButtonBase): add test on button and modal" />
     <MESSAGE value="Features (ModalBase, ButtonBase): add tests on button and modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Features (ModalBase, ButtonBase): add tests on button and modal" />
+    <MESSAGE value="Features (Header): add adaptive styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Features (Header): add adaptive styles" />
   </component>
 </project>
