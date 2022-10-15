@@ -6,6 +6,6 @@ interface Authorization {
   password: string;
 }
 
-export const authorization = async (userData: Authorization) => {
+export const signInReq = async (userData: Authorization) => {
   return await axios.post(API.SIGN_IN_PATH, userData);
 };

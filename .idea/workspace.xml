@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Features (Header): add adaptive styles">
+    <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Fix (signUp modal): add button &quot;remember me&quot;, &quot;forgot your password&quot;">
+      <change afterPath="$PROJECT_DIR$/client/src/api/sign-up.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/modals/SignUpModal.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/sign-in.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/sign-in-req.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/modals/SignInModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/SignInModal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/NewsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/NewsView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/VideoView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/VideoView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ui/ModalBase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ui/ModalBase.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Vue Single File Component" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -28,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="tests" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,21 +61,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/oem/Portfolio_Projects/cinema&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/oem/Portfolio_Projects/skate/client/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/oem/Study_Projects/Skate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/oem/Portfolio_Projects/skate/client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client" />
@@ -142,6 +145,7 @@
       <workItem from="1664998171950" duration="321000" />
       <workItem from="1665043186970" duration="16749000" />
       <workItem from="1665134728854" duration="4467000" />
+      <workItem from="1665842868453" duration="3940000" />
     </task>
     <task id="LOCAL-00001" summary="Init (app): init app">
       <created>1664531363691</created>
@@ -185,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665144966952</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix (signUp modal): add button &quot;remember me&quot;, &quot;forgot your password&quot;">
+      <created>1665842223849</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665842223849</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +232,7 @@
     <MESSAGE value="Features (ModalBase, ButtonBase): add test on button and modal" />
     <MESSAGE value="Features (ModalBase, ButtonBase): add tests on button and modal" />
     <MESSAGE value="Features (Header): add adaptive styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Features (Header): add adaptive styles" />
+    <MESSAGE value="Fix (signUp modal): add button &quot;remember me&quot;, &quot;forgot your password&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix (signUp modal): add button &quot;remember me&quot;, &quot;forgot your password&quot;" />
   </component>
 </project>

@@ -30,20 +30,30 @@
           <span :class="$style['burger-item']"></span>
         </ButtonBase>
       </nav>
-      <div class="flex-initial w-1/5 flex items-center justify-end">
+      <div class="flex-initial gap-2 w-1/5 flex items-center justify-end">
         <ButtonBase
-          class="cursor-pointer align-baseline"
+          class="cursor-pointer align-baseline hover:border-b-2 border-y-current p-2"
           type="button"
-          @click="open"
+          @click="open(signIn)"
         >
-          <IconBase height="25" icon-name="login" width="25">
-            <LoginIcon />
-          </IconBase>
+          Войти
+        </ButtonBase>
+        <span>/</span>
+        <ButtonBase
+          class="cursor-pointer align-baseline hover:border-b-2 border-y-current p-2"
+          type="button"
+          @click="open(signUp)"
+        >
+          Регистрация
         </ButtonBase>
         <teleport to="body">
           <SignInModal
-            :isModalOpen="toggleModal"
-            @closeModal="toggleModal = false"
+            :isModalOpen="toggleSignIn"
+            @closeModal="toggleSignIn = false"
+          />
+          <SignUpModal
+            :isModalOpen="toggleSignUp"
+            @closeModal="toggleSignUp = false"
           />
         </teleport>
       </div>
@@ -52,15 +62,26 @@
 </template>
 
 <script lang="ts" setup>
-import LoginIcon from "@/components/icons/LoginIcon.vue";
 import { ref } from "vue";
 import SignInModal from "@/components/modals/SignInModal.vue";
 import ButtonBase from "@/components/ui/ButtonBase.vue";
+import SignUpModal from "@/components/modals/SignUpModal.vue";
 
-const toggleModal = ref(false);
+const signIn = "SignIn";
+const signUp = "SignUp";
 
-const open = () => {
-  toggleModal.value = true;
+const toggleSignIn = ref(false);
+const toggleSignUp = ref(false);
+
+const open = (str: string) => {
+  switch (str) {
+    case signIn:
+      toggleSignIn.value = true;
+      break;
+    case signUp:
+      toggleSignUp.value = true;
+      break;
+  }
 };
 
 const isMenuOpen = ref(false);
@@ -81,7 +102,7 @@ const toggleMenu = () => {
 }
 
 .menu-link {
-  @apply text-base smDesktop:text-2xl hover:border-b-2 border-y-current p-2;
+  @apply text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
 }
 
 .menu-open {
@@ -92,7 +113,7 @@ const toggleMenu = () => {
 <style lang="scss">
 a.router-link-active,
 li.router-link-active > a {
-  padding-bottom: 0.5rem;
-  border-bottom: 0.15rem solid black;
+  color: white;
+  background-color: #111827;
 }
 </style>

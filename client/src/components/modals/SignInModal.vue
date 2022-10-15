@@ -59,7 +59,7 @@
         </div>
         <ButtonBase
           type="submit"
-          @click="signIn"
+          @click="signInReq"
           class="group relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >
           <span class="absolute inset-y-0 left-0 flex items-center pl-3">
@@ -79,7 +79,7 @@
 import { computed, ref } from "vue";
 import EyeIcon from "@/components/icons/EyeIcon.vue";
 import EyeBlockedIcon from "@/components/icons/EyeBlockedIcon.vue";
-import { authorization } from "@/api/sign-in";
+import { signInReq } from "@/api/sign-in-req";
 import { SERVER_CODE } from "@/enum/server-code";
 import { LockClosedIcon } from "@heroicons/vue/20/solid";
 
@@ -101,7 +101,7 @@ let user = ref({ email: "", password: "" });
 
 const signIn = async () => {
   try {
-    const response = await authorization(user);
+    const response = await signInReq(user);
     if (response.status === SERVER_CODE.CODE_200) {
       user.value = {
         email: "",
@@ -135,6 +135,7 @@ const changeType = () => {
   }
 };
 </script>
+
 <style lang="postcss" module>
 .input {
   @apply w-full py-2 pl-2.5 pr-8 rounded-md;

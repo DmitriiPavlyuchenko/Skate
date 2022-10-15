@@ -22,7 +22,7 @@
             <slot name="footer"></slot>
           </div>
           <ButtonBase
-            class="close absolute top-2 right-2 text-base text-gray-700 text-2xl hover:text-black"
+            class="close absolute top-2 right-2 text-base text-gray-700 text-3xl hover:text-black"
             @click="close"
             >x
           </ButtonBase>
