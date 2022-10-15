@@ -4,4 +4,7 @@ import HeaderApp from "@/components/HeaderApp.vue";
 
 <template>
   <HeaderApp />
+  <main class="main container">
+    <router-view></router-view>
+  </main>
 </template>

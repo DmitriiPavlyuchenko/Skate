@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d6e4f630-624b-4511-8a1c-9ce5f7e7da2b" name="Changes" comment="Features (Header): add adaptive styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HeaderApp.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/modals/SignInModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/modals/SignInModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/NewsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/NewsView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/VideoView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/views/VideoView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,4 +1,4 @@
-<template></template>
+<template>News</template>
 
 <script>
 export default {

@@ -1,4 +1,4 @@
-<template></template>
+<template>Video</template>
 
 <script>
 export default {
